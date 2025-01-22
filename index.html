@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Emlak</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://via.placeholder.com/150x50?text=Modern+Emlak" alt="Modern Emlak Logo" width="150">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Ana Sayfa</a></li>
+                <li><a href="#listings">İlanlar</a></li>
+                <li><a href="#about">Hakkımızda</a></li>
+                <li><a href="#contact">İletişim</a></li>
+            </ul>
+            <button class="cta-button">Hemen Başla</button>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero" style="background-image: url('https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&q=80');">
+            <h1>Hayalinizdeki Eve Hoş Geldiniz</h1>
+            <p>Size özel emlak çözümleri için buradayız.</p>
+            <div class="search-bar">
+                <input type="text" placeholder="Aradığınız emlağı bulun...">
+                <button>Ara</button>
+            </div>
+        </section>
+
+        <section id="listings" class="featured-listings">
+            <h2>Öne Çıkan İlanlar</h2>
+            <div class="listings-container">
+                <div class="listing-card">
+                    <img src="https://images.unsplash.com/photo-1613977257363-707ba9348227?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80" alt="Lüks Villa">
+                    <h3>Lüks Villa</h3>
+                    <p>₺5,000,000</p>
+                    <button>Detayları Gör</button>
+                </div>
+                <div class="listing-card">
+                    <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80" alt="Şehir Merkezi Daire">
+                    <h3>Şehir Merkezi Daire</h3>
+                    <p>₺1,500,000</p>
+                    <button>Detayları Gör</button>
+                </div>
+                <div class="listing-card">
+                    <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80" alt="Deniz Manzaralı Yazlık">
+                    <h3>Deniz Manzaralı Yazlık</h3>
+                    <p>₺3,000,000</p>
+                    <button>Detayları Gör</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>Hakkımızda</h2>
+            <div class="about-content">
+                <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80" alt="Ekibimiz" width="400">
+                <p>Modern Emlak olarak, 20 yılı aşkın tecrübemizle size en iyi emlak hizmetini sunuyoruz. Profesyonel ekibimiz ve geniş portföyümüzle hayalinizdeki evi bulmanıza yardımcı oluyoruz.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>İletişim</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Adınız" required>
+                <input type="email" placeholder="E-posta Adresiniz" required>
+                <textarea placeholder="Mesajınız" required></textarea>
+                <button type="submit">Gönder</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="#" class="social-icon"><img src="https://cdn-icons-png.flaticon.com/128/733/733547.png" alt="Facebook" width="30"></a>
+            <a href="#" class="social-icon"><img src="https://cdn-icons-png.flaticon.com/128/733/733579.png" alt="Twitter" width="30"></a>
+            <a href="#" class="social-icon"><img src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png" alt="Instagram" width="30"></a>
+        </div>
+        <p>&copy; 2023 Modern Emlak. Tüm hakları saklıdır.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
