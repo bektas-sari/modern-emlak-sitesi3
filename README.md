@@ -40,7 +40,7 @@ modern-emlak/
 
 # Lisans
 
-Bu proje, MIT Lisansı altında lisanslanmıştır. Daha fazla bilgi için LICENSE dosyasına bakabilirsiniz.
+Bu proje, MIT Lisansı altında lisanslanmıştır.
 
 # İletişim
 
