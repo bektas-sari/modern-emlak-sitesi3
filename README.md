@@ -41,3 +41,7 @@ modern-emlak/
 # Lisans
 
 Bu proje, MIT Lisansı altında lisanslanmıştır. Daha fazla bilgi için LICENSE dosyasına bakabilirsiniz.
+
+# İletişim
+
+EMail: bektas.sari@gmail.com
